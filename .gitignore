@@ -1,4 +1,5 @@
 model-artifacts/*
+model-artifacts*
 app
 __pycache__
 .venv

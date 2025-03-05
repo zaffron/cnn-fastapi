@@ -5,9 +5,16 @@
 - All the requirements for the model is listed on the requirements.txt
 - If you want to run locally then please add `tensorflow==2.17.1` on the `requirements.txt`
 
+### Before you proceed
+
+- Make sure you have `model-artifacts` directory on the base folder with following files
+  - `label_encoder.pkl`
+  - `model.keras`
+  - `vectorizer.pkl`
+
 ### Note
 
-- The reason why tensorflow is not included in requirements.txt is because we are already using base docker image for tensorflow for the required version. It takes a lot of time, if fetched form pip
+- The reason why tensorflow is not included in `requirements.txt` is because we are already using base docker image for tensorflow for the required version. It takes a lot of time, if fetched from pip
 
 ### Usage Requirements
 

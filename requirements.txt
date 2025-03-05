@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+keras==3.5.0
+loguru
+numpy
+scikit-learn
+pydantic

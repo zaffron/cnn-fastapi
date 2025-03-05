@@ -1,0 +1,11 @@
+services:
+  cnn-inference-api:
+    build: .
+    container_name: cnn-inference
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all # Enable GPU if using GPU-based TensorFlow
+    restart: always
